@@ -7,5 +7,7 @@ int main()
     cin >> s;
     cout << s[4] << endl;
     cout << s.at(0) << endl;
+    cout << s.front() << endl;
+
     return 0;
 }
