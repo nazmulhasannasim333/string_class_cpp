@@ -6,6 +6,7 @@ int main(){
     int size = s.size();
     int max_size = s.max_size();
     int capacity = s.capacity();
+    s.clear();
     
     return 0;
 }
