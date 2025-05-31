@@ -10,7 +10,8 @@ int main()
     // s.push_back('!');
     // s += "!";
     // s.pop_back();
-    s = s2;
+    // s = s2;
+    s.assign(s2);
     cout << s << endl;
     return 0;
 }
