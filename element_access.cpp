@@ -9,6 +9,6 @@ int main()
     cout << s.at(0) << endl;
     cout << s.front() << endl;
     cout << s.back() << endl;
-   
+    cout << s[s.size() - 1] << endl; // Accessing the last character
     return 0;
 }
