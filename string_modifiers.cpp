@@ -11,7 +11,8 @@ int main()
     // s += "!";
     // s.pop_back();
     // s = s2;
-    s.assign(s2);
+    // s.assign(s2);
+    s.erase(3, 2);
     cout << s << endl;
     return 0;
 }
