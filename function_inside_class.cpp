@@ -20,5 +20,11 @@ int main()
 {
     Student nasim("Nasim", 1);
     nasim.hello();
+
+    Student rahim("Rahim", 2);
+    rahim.hello();
+
+    Student karim("Karim", 3);
+    karim.hello();
     return 0;
 }
